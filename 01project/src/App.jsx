@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Content from "./components/Content";
 
 function App() {
   return (
     <div>
-        Started Hands on React Today .
+      <Navbar/>
+      <Content/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
